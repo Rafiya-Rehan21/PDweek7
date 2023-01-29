@@ -1,16 +1,15 @@
 #include <iostream>
 using namespace std;
-void leftTriangle(int rows);
-void rightTriangle(int rows);
+void printTriangle(int rows);
 main()
 {
     int rows;
     cout << "Enter number of rows:";
     cin >> rows;
-    leftTriangle(rows);
+    printTriangle(rows);
     
 }
-void leftTriangle(int rows)
+void printTriangle(int rows)
 {
     for(int i= 1; i<=rows; i++)
     {
